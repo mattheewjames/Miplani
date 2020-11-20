@@ -26,10 +26,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if($_SERVER['HTTP_HOST'] == 'localhost')
 {
 	 $config['base_url'] = 'http://localhost/miplani/';	
+	 $config['base_admin_url'] = 'http://localhost/miplani/admin/';
 }
 else
 {
 $config['base_url'] = 'https://appvelo.com/Miplani/';
+$config['base_admin_url'] = 'https://appvelo.com/Miplani/admin/';
 }
 // $config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/miplani/'; //http://'.$_SERVER['HTTP_HOST'].'/Miplani/
 // $config['base_admin_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/miplani/admin/';//http://'.$_SERVER['HTTP_HOST'].'/Miplani/admin/

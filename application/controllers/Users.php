@@ -210,7 +210,7 @@ class Users extends MY_Web_Login_Controller
 			
 				'clientId'          => '86479evl1wzha7',
 				'clientSecret'      => '0FJ9bghW1cJmNyC5',
-				'redirectUri'       => 'http://localhost/miplani/users/linkedincallback',
+				'redirectUri'       => 'https://appvelo.com/Miplani/users/linkedincallback',
 				//'linkedin_scope'       => 'r_liteprofile w_member_social',
 		]);
 		$options = [
@@ -232,7 +232,7 @@ class Users extends MY_Web_Login_Controller
 		$provider = new League\OAuth2\Client\Provider\LinkedIn([
 				'clientId'          => '86479evl1wzha7',
 				'clientSecret'      => '0FJ9bghW1cJmNyC5',
-				'redirectUri'       => 'http://localhost/miplani/users/linkedincallback',
+				'redirectUri'       => 'https://appvelo.com/Miplani/users/linkedincallback',
 		]);
 		$options = [
 			    'state' => 'california',
@@ -314,7 +314,7 @@ public function login_twitter()
 
 				'secret' => 'Cfehw8kIxiRqd4Bpsvk4SW78X9PUM8AkNMoZQznbcXrL65wklK',
 
-				'callback_uri' => 'http://localhost/miplani/users/twitter_callback',
+				'callback_uri' => 'https://appvelo.com/Miplani/users/twitter_callback',
 		));
 		// Retrieve temporary credentials
 		$temporaryCredentials = $server->getTemporaryCredentials();
@@ -333,7 +333,7 @@ public function login_twitter()
 
 				'secret' => 'Cfehw8kIxiRqd4Bpsvk4SW78X9PUM8AkNMoZQznbcXrL65wklK',
 
-				'callback_uri' => base_url().'users/twitter_callback',
+				'callback_uri' => 'https://appvelo.com/Miplani/users/twitter_callback',
 			));
 
 		if (isset($_GET['oauth_token']) && isset($_GET['oauth_verifier'])) {
