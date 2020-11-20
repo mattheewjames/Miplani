@@ -1,0 +1,7 @@
+# What to ignore in git
+
+application/config/database.php
+application/config/config.php
+WebTheme/assets/js/jsconfig.js
+admin/assets/js/jsconfig.js
+uploads
