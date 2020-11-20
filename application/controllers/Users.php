@@ -314,7 +314,7 @@ public function login_twitter()
 
 				'secret' => 'Cfehw8kIxiRqd4Bpsvk4SW78X9PUM8AkNMoZQznbcXrL65wklK',
 
-				'callback_uri' => base_url().'users/twitter_callback',
+				'callback_uri' => 'http://localhost/miplani/users/twitter_callback',
 		));
 		// Retrieve temporary credentials
 		$temporaryCredentials = $server->getTemporaryCredentials();
