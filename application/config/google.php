@@ -51,7 +51,7 @@
 $config['clientId'] = '813346140332-t70fdtvatsgeiehkm89tqsqqlfb9jjij.apps.googleusercontent.com'; //add your client id
 $config['clientSecret'] = 'U_q25jl1ExGE33Elpu0HEczp'; //add your client secret
 //$config['redirectUri'] = 'http://goalwebs.com/rewarding_program/login/google_callback'; //add your redirect uri
-$config['redirectUri'] = 'http://localhost/miplani/users/google_callback'; //add your redirect uri
+$config['redirectUri'] = 'https://appvelo.com/Miplani/users/google_callback'; //add your redirect uri
 //$config['redirectUri'] = 'http://localhost/consultancy/signup/google_callback'; //add your redirect uri
 $config['apiKey'] = 'AIzaSyAVB7ckYPl3tGeI_WioONzHU9dGCe6WGz4'; //add your api key here
 $config['applicationName'] ='miplani'; //application name for the api
