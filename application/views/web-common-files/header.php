@@ -22,10 +22,10 @@
 							<div class="top_right text-right">
 								<ul>
 									<li class="language">
-										<a href="#" style="color: #fff !important"><img src="<?php echo base_url("WebTheme/assets/img/languages/en.png");?>">EN</a>
+										<a href="<?php echo base_url() ?>home/changeLanguage/EN" style="color: #fff !important"><img src="<?php echo base_url("WebTheme/assets/img/languages/en.png");?>">EN</a>
 									</li>
 									<li class="language">
-										<a href="#" style="color: #fff !important"><img src="<?php echo base_url("WebTheme/assets/img/languages/es.png");?>">ES</a>
+										<a href="<?php echo base_url() ?>home/changeLanguage/ES" style="color: #fff !important"><img src="<?php echo base_url("WebTheme/assets/img/languages/es.png");?>">ES</a>
 									</li>
 								</ul>
 							</div>
@@ -57,13 +57,13 @@
 											$pricing_plan_active_tab = 'active';
 										}
 										?>
-										<li><a href="<?php echo base_url();?>" class="<?php echo $home_active_tab;?>">Home</a></li>
-										<li><a href="<?php echo base_url('pages/PricingPlan');?>" class="<?php echo $pricing_plan_active_tab;?>">Pricing plan</a></li>
-										<li><a target="_blank" href="https://miplani.com/en/what-is-miplaniapp/">What is this</a></li>
-										<li><a target="_blank" href="https://miplani.com/en/who-is-miplaniapp-for/">Who is it for</a></li>
-										<li><a target="_blank" href="https://miplani.com/en/how-it-works/">How it works</a></li>
-										<li><a target="_blank" href="https://miplani.com/en/faq/">FAQs</a></li>
-										<li><a target="_blank" href="https://miplani.com/en/contact-us/">Contact Us</a></li>
+										<li><a href="<?php echo base_url();?>" class="<?php echo $home_active_tab;?>"><?php echo $this->lang->line('lang_home_label'); ?></a></li>
+										<li><a href="<?php echo base_url('pages/PricingPlan');?>" class="<?php echo $pricing_plan_active_tab;?>"><?php echo $this->lang->line('pricing_plan'); ?></a></li>
+										<li><a target="_blank" href="https://miplani.com/en/what-is-miplaniapp/"><?php echo $this->lang->line('what_is_this'); ?></a></li>
+										<li><a target="_blank" href="https://miplani.com/en/who-is-miplaniapp-for/"><?php echo $this->lang->line('who_is_it_for'); ?></a></li>
+										<li><a target="_blank" href="https://miplani.com/en/how-it-works/"><?php echo $this->lang->line('how_it_works'); ?></a></li>
+										<li><a target="_blank" href="https://miplani.com/en/faq/"><?php echo $this->lang->line('faq'); ?></a></li>
+										<li><a target="_blank" href="https://miplani.com/en/contact-us/"><?php echo $this->lang->line('contact_us'); ?></a></li>
  										<?php
 										if(!empty($this->session->userdata('MiPlani_user_id')))
 										{
@@ -104,8 +104,8 @@
 										else
 										{
 										?>
-											<li class="signup_li" ><a href="<?php echo base_url("users/SignUp");?>" class="signup_a">SIGN UP</a></li>
-											<li class="signin_li" id="signin_li"><a href="<?php echo base_url("users/SignIn");?>" class="signin_a">SIGN IN</a></li>
+											<li class="signup_li" ><a href="<?php echo base_url("users/SignUp");?>" class="signup_a"><?php echo $this->lang->line('lang_sign_up_label'); ?></a></li>
+											<li class="signin_li" id="signin_li"><a href="<?php echo base_url("users/SignIn");?>" class="signin_a"><?php echo $this->lang->line('lang_sign_in_label'); ?></a></li>
 										<?php	
 										}
 										?>
@@ -183,7 +183,7 @@
 						</div>
 						<div id="menu" class="text-left ">
 							<ul class="offcanvas_main_menu">
-								<li><a href="<?php echo base_url();?>">Home</a></li>
+								<li><a href="<?php echo base_url();?>"><?php echo $this->lang->line('lang_home_label'); ?></a></li>
  								<li><a href="<?php echo base_url('pages/PricingPlan');?>">Pricing plan</a></li>
 								<li><a target="_blank" href="https://miplani.com/en/what-is-miplaniapp/">What is this</a></li>
 								<li><a target="_blank" href="https://miplani.com/en/who-is-miplaniapp-for/">Who is it for</a></li>

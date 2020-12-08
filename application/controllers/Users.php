@@ -60,6 +60,8 @@ class Users extends MY_Web_Login_Controller
  	}
 	public function SignUp()
 	{
+		// print_r($_SESSION);
+		// exit();
 		$header_data = array('page_title' => $this->lang->line('lang_sign_up_label'));
 		$data['authURL'] = '';
 		if($this->facebook->is_authenticated())
