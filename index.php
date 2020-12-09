@@ -72,6 +72,7 @@ setlocale(LC_ALL, 'de_DE@euro', 'de_DE', 'deu_deu');
  * Different environments will require different levels of error reporting.
  * By default development will show errors but testing and live will hide them.
  */
+
 switch (ENVIRONMENT)
 {
 	case 'development':

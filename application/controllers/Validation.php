@@ -561,19 +561,19 @@ class Validation extends MY_Web_Controller
 			if(!empty($user_row))
 			{
 				$this->form_validation->set_rules('old_password', '', 'trim|required|callback_check_user_password',
-					array('required' => 'Please enter current password')
-				);
+					array('required' => $this->lang->line('Please_enter_current_password')
+				));
 				$this->form_validation->set_rules('new_password', '', 'trim|required|min_length[8]|max_length[25]|callback_check_password_strength',
 					array(
-							'required' => 'Please enter new password',
-							'min_length' => 'New password must have minimum 8 characters or numbers',
-							'max_length' => 'New password must have maximum 25 characters or numbers',
+							'required' => $this->lang->line('Please_enter_new_password'),
+							'min_length' => $this->lang->line('New_password_must_have_minimum_8_characters_or_numbers'),
+							'max_length' => $this->lang->line('New_password_must_have_maximum_25_characters_or_numbers'),
 						 )
 				);
 				$this->form_validation->set_rules('confirm_password', '', 'trim|required|matches[new_password]',
 						array(
-							'required' => 'Please enter confirm password',
-							'matches' => 'New password and confirm password not match'
+							'required' => $this->lang->line('Please_enter_confirm_password'),
+							'matches' => $this->lang->line('New_password_and_confirm_password_not_match')
 						 )
 				);
 				if($this->form_validation->run() == FALSE)
@@ -615,10 +615,10 @@ class Validation extends MY_Web_Controller
 			$user_row = $this->users->get_active_user_row($this->session->userdata('MiPlani_user_id'));
 			if(!empty($user_row))
 			{
-				$this->form_validation->set_rules('first_name', '', 'trim|required',array('required' => 'Please enter first name'));
-				$this->form_validation->set_rules('last_name', '', 'trim|required',array('required' => 'Please enter last name'));
-				$this->form_validation->set_rules('username', '', 'trim|required|callback_check_update_username',array('required' => 'Please enter username'));
-				$this->form_validation->set_rules('user_email', '', 'trim|required|callback_check_update_user_email',array('required' => 'Please enter email'));
+				$this->form_validation->set_rules('first_name', '', 'trim|required',array('required' => $this->lang->line('Please_enter_first_name')));
+				$this->form_validation->set_rules('last_name', '', 'trim|required',array('required' => $this->lang->line('Please_enter_last_name')));
+				$this->form_validation->set_rules('username', '', 'trim|required|callback_check_update_username',array('required' => $this->lang->line('Please_enter_username')));
+				$this->form_validation->set_rules('user_email', '', 'trim|required|callback_check_update_user_email',array('required' => $this->lang->line('Please_enter_email')));
 
 				if($this->form_validation->run() == FALSE)
 				{

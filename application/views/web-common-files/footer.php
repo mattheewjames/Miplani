@@ -106,6 +106,58 @@
 		<div class="modal-content" id='load_modal_data'></div>
 	</div>
 </div>
+<script type="text/javascript">
+	 var Item;
 
+    $(document).ready(function () {
+// ===================================table filler================================  
+
+
+
+
+        Item = $('#branches_table').DataTable({
+         
+        "lengthChange": true,
+            "searching": true,
+            "processing": true, //Feature control the processing indicator.
+            "serverSide": false, //Feature control DataTables' server-side processing mode.
+            "order": [], //Initial no order.
+
+            "lengthMenu": [
+                [10, 25, 50, -1],
+                [10, 25, 50, "All"]
+            ],
+
+            "columnDefs": [{
+                "targets": [-1], //sorting
+                "orderable": false,
+
+            }, ],
+
+            "language": {
+                "search": "<?php echo  $this->lang->line('Search'); ?>:",
+            "lengthMenu": "<?php echo  $this->lang->line('Show'); ?> _MENU_ <?php echo $this->lang->line('entries'); ?>",
+            "info": "<?php echo $this->lang->line('Showing'); ?> _START_ <?php echo $this->lang->line('to'); ?> _END_ <?php echo $this->lang->line('of'); ?> _TOTAL_ <?php echo $this->lang->line('entries'); ?>",
+            "infoEmpty": "<?php echo $this->lang->line('No records available'); ?>",
+            "oPaginate": {
+                "sNext":     "<?php echo $this->lang->line('Next'); ?>",
+                "sPrevious": "<?php echo $this->lang->line('Previous'); ?>"
+                },
+            },
+            "aoColumnDefs": [{
+                    "bSortable": false,
+                    "aTargets": [0,1,2,3]
+                },
+                {
+                    "bSearchable": false,
+                    "aTargets": [0]
+                },
+            ],
+            
+        });
+
+      
+    });
+</script>
 </body>
 </html>

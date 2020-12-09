@@ -1,6 +1,6 @@
 <div class="unlimited_services" id="pricing-plan">
 	<div class="container">
-	<div class="col-md-12 text-center"><h1>Profile Setting</h1></div>
+	<div class="col-md-12 text-center"><h1><?php echo $this->lang->line('lang_profile_settings_label');?></h1></div>
 	</div>
 </div>
 <?php $this->load->view('web-common-files/profile_menu');?>
@@ -60,7 +60,7 @@
 					</div>
  					<div class="col-lg-6 col-md-12">
 						<div class="contact_message content main_profile">
-							<h3>Change password</h3>
+							<h3><?php echo $this->lang->line('lang_Change_password_label');?></h3>
 							<form name="change_password_form_data" id="change_password_form_data" method="post" action="">
 							   <ul class="col-md-12 alert alert-danger" id="change_password_error_div" style="display: none;"></ul>
 							   <ul class="col-md-12 alert alert-success" id="change_password_success_div" style="display: none;"></ul>

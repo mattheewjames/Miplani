@@ -80,19 +80,19 @@
 												$session_user_name = $this->lang->line('lang_empty_user_name_label');
 											}
 										?>
-											<li class="profile_li" id="profile_li"><a href="<?php echo base_url('panel/ProfileView');?>" class="profile_a">Profile</a></li>
-											<li class="logout_li" id="logout_li"><a href="<?php echo base_url('logout');?>" class="logout_a">Logout</a></li>
+											<li class="profile_li" id="profile_li"><a href="<?php echo base_url('panel/ProfileView');?>" class="profile_a"><?php echo $this->lang->line('lang_profile_label'); ?></a></li>
+											<li class="logout_li" id="logout_li"><a href="<?php echo base_url('logout');?>" class="logout_a"><?php echo $this->lang->line('lang_logout_label'); ?></a></li>
 											<li>
 												<div class="top_right">
 													<ul>
 														<li class="top_links"><a href="javascript:;"><i class="ion-android-person"></i> <?php echo substr($session_user_name,0,100);?><i class="fa fa-chevron-down"></i></a>
 															<ul class="dropdown_links">
 																<li><a href="<?php echo base_url('panel/ProfileView');?>"><?php echo $this->lang->line('lang_profile_label');?></a></li>
-																<li><a href="<?php echo base_url('projections');?>">View Saved Projects</a></li>
-																<li><a href="<?php echo base_url('projections/NewProjection');?>">Create New Finan. Goals</a></li>
-																<li><a href="<?php echo base_url('panel/Payments');?>">My plans</a></li>
-																<li><a href="<?php echo base_url('panel/InviteFriends');?>">Shared with Friends</a></li>
-																<li><a target="_blank" href="https://miplani.com/en/contact-us/">Contact Us</a></li>
+																<li><a href="<?php echo base_url('projections');?>"><?php echo $this->lang->line('lang_view_saved_project_label'); ?></a></li>
+																<li><a href="<?php echo base_url('projections/NewProjection');?>"><?php echo $this->lang->line('lang_create_fin_goals_label'); ?></a></li>
+																<li><a href="<?php echo base_url('panel/Payments');?>"><?php echo $this->lang->line('lang_my_plans_label'); ?></a></li>
+																<li><a href="<?php echo base_url('panel/InviteFriends');?>"><?php echo $this->lang->line('lang_shared_with_friends_label'); ?></a></li>
+																<li><a target="_blank" href="https://miplani.com/en/contact-us/"><?php echo $this->lang->line('lang_contact_us_label'); ?></a></li>
 																<li><a href="<?php echo base_url('logout');?>"><?php echo $this->lang->line('lang_logout_label');?> </a></li>
 															</ul>
 														</li>

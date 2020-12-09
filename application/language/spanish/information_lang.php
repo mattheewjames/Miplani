@@ -67,12 +67,71 @@ $lang['lang_confirm_privacy_policy_error'] =  "Confirme que está de acuerdo con
 $lang['lang_refresh_page_error'] =  "Se ha producido un error, actualice la página y vuelva a intentarlo"; 
 $lang['lang_invalid_link_access_error'] =  "Lo sentimos, el enlace al que intenta acceder se eliminó o no es válido"; 
 /*==============================Profile pages Labels===============*/
-$lang['lang_profile_label'] =  "Profile";
-$lang['lang_old_password_label'] =  "Old Password";
+$lang['lang_profile_label'] =  "perfil";
 $lang['lang_new_password_label'] =  "New Password";
-$lang['lang_personal_information_label'] =  "Personal Information"; 
-$lang['lang_type_of_subscription_label'] =  "Type of subscription"; 
-$lang['lang_free_label'] =  "Free"; 
+$lang['lang_old_password_label'] =  "Contraseña anterior";
+$lang['lang_new_password_label'] =  "Nueva contraseña";
+$lang['lang_personal_information_label'] =  "Informacion personal"; 
+$lang['lang_type_of_subscription_label'] =  "Tipo de suscripción"; 
+$lang['lang_free_label'] =  "Gratis"; 
+$lang['lang_view_saved_project_label'] =  "Ver proyectos guardados";
+$lang['lang_create_fin_goals_label'] =  "Crear nuevo Finan. Metas";
+$lang['lang_my_plans_label'] =  "Mis planes";
+$lang['lang_shared_with_friends_label'] =  "Compartida con amigas";
+$lang['lang_contact_us_label'] =  "Contacta con nosotras";
+$lang['lang_my_profile_label'] =  "Mi perfil";
+$lang['lang_profile_settings_label'] =  "Configuración de perfil";
+$lang['lang_invite_friends_label'] =  "Invitar a amigas";
+$lang['lang_current_plan_info_label'] =  "Información del plan actual";
+$lang['lang_Total_Annual_Financial_Goals_label'] =  "Metas financieras anuales totales";
+
+$lang['lang_Total_Dream_Financial_Goals_label'] =  "Metas financieras totales del sueño";
+
+$lang['lang_Total_Dream_Bi-Annual_Goals_label'] =  "Metas bianuales de Total Dream";
+
+$lang['lang_Total_Dream_Quarterly_Goals_label'] =  "Total de metas trimestrales de Dream ";
+
+$lang['lang_Total_Share_label'] =  "Participación total";
+$lang['lang_Change_password_label'] =  "Cambia la contraseña";
+
+$lang['Please_enter_first_name'] =  "Por favor ingrese su nombre";
+$lang['Please_enter_last_name'] =  "Por favor ingrese su apellido";
+$lang['Please_enter_username'] =  "Por favor ingrese el nombre de usuario";
+$lang['Please_enter_email'] =  "Por favor ingrese su correo electrónico";
+
+$lang['Please_enter_current_password'] =  "Ingrese la contraseña actual";
+$lang['Please_enter_new_password'] =  "
+Ingrese nueva contraseña";
+$lang['New_password_must_have_minimum_8_characters_or_numbers'] =  "
+La nueva contraseña debe tener un mínimo de 8 caracteres o números";
+$lang['New_password_must_have_maximum_25_characters_or_numbers'] =  "La nueva contraseña debe tener un máximo de 25 caracteres o números";
+$lang['Please_enter_confirm_password'] =  "
+Por favor ingrese confirmar contraseña";
+$lang['New_password_and_confirm_password_not_match'] =  "La contraseña nueva y la contraseña de confirmación no coinciden";
+$lang['lang_Email_label'] =  "Email";
+$lang['lang_Date_label'] =  "Fecha";
+$lang['lang_Permission_label'] =  "Permiso";
+$lang['lang_Action_label'] =  "Acción";
+
+$lang['Search'] = 'buscar';
+$lang['Show'] = 'mostrar';
+$lang['entries'] = 'entradas';
+$lang['Showing'] = 'Demostración';
+$lang['to'] = 'a';
+$lang['of'] = 'de';
+$lang['Previous'] = 'Previa';
+$lang['Next'] = 'Siguiente';
+$lang['No records available'] = 'No hay registros disponibles';
+
+$lang['Please_select_valid_record'] = 'Seleccione un registro válido';
+
+$lang['Invite_Friend'] = 'Invitar a un amigo';
+$lang['Permission'] = 'Permiso';
+$lang['View'] = 'Ver';
+$lang['Edit'] = 'Editar';
+$lang['Enter_your_friend_email_address_to_invite'] = '
+Ingrese la dirección de correo electrónico de su amigo para invitar';
+
 /*==============================Profile pages Validation Errors===============*/
 $lang['lang_sign_in_to_continue_error'] =  "Please sign in to continue";
 $lang['lang_please_enter_valid_login_information_error'] =  "please enter valid login information";

@@ -1271,3 +1271,5 @@ function get_guest_dream_projection_calculation(type,id)
 	});
 	$.LoadingOverlay("hide");
 }
+
+

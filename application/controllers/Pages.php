@@ -698,12 +698,12 @@ class Pages extends MY_Web_Controller
 					$data['row'] = $this->projection->get_projection_row($peojection_id,$this->session->userdata('MiPlani_user_id'));
 					if(empty($data['row']))
 					{
-						$data['error_message'] = 'Please select valid record';
+						$data['error_message'] = $this->lang->line('Please_select_valid_record');
 					}
 				}
 				else
 				{
-					$data['error_message'] = 'Please select valid record';
+					$data['error_message'] = $this->lang->line('Please_select_valid_record');
 				}
  			}
 			else

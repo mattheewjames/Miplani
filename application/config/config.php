@@ -25,8 +25,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 if($_SERVER['HTTP_HOST'] == 'localhost')
 {
-	 $config['base_url'] = 'http://localhost/miplani/';	
-	 $config['base_admin_url'] = 'http://localhost/miplani/admin/';
+
+	 $config['base_url'] = 'http://localhost/Miplani/';	
+	 $config['base_admin_url'] = 'http://localhost/Miplani/admin/';
 }
 else
 {

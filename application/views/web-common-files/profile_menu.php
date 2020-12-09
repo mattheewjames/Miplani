@@ -26,12 +26,12 @@
 						$bg_view_class = 'green-color-bg';
 					}
 					?>
-					<a class="btn btn-primary <?php echo $bg_view_class;?>" href="<?php echo base_url('panel/ProfileView');?>">My Profile</a>
-					<a class="btn btn-dark <?php echo $bg_setting_class;?>" href="<?php echo base_url('panel');?>">Profile Setting</a>
+					<a class="btn btn-primary <?php echo $bg_view_class;?>" href="<?php echo base_url('panel/ProfileView');?>"><?php echo  $this->lang->line('lang_my_profile_label'); ?></a>
+					<a class="btn btn-dark <?php echo $bg_setting_class;?>" href="<?php echo base_url('panel');?>"><?php echo  $this->lang->line('lang_profile_settings_label'); ?></a>
 					
 					<!-- <a class="btn btn-dark <?php echo $bg_payment_class;?>" href="<?php echo base_url('panel/Payments');?>">My Plans</a> -->
-					<a class="btn btn-dark <?php echo $bg_share_class;?>" href="<?php echo base_url('panel/InviteFriends');?>">Shared with Friends</a>
-					<a class="btn btn-dark <?php echo $bg_invite_class;?>" href="javascript:;" onClick="call_url_key_modal('pages/InviteProjectionFriend')">Invite Friends</a>
+					<a class="btn btn-dark <?php echo $bg_share_class;?>" href="<?php echo base_url('panel/InviteFriends');?>"><?php echo  $this->lang->line('lang_shared_with_friends_label'); ?></a>
+					<a class="btn btn-dark <?php echo $bg_invite_class;?>" href="javascript:;" onClick="call_url_key_modal('pages/InviteProjectionFriend')"><?php echo  $this->lang->line('lang_invite_friends_label'); ?> </a>
  				</div>
 			</div>
 		</div>

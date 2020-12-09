@@ -1,6 +1,6 @@
 <div class="unlimited_services" id="pricing-plan">
 	<div class="container">
-	<div class="col-md-12 text-center"><h1>Shared with Friends</h1></div>
+	<div class="col-md-12 text-center"><h1><?php echo $this->lang->line('lang_shared_with_friends_label');?></h1></div>
 	</div>
 </div>
 <?php
@@ -13,13 +13,13 @@ if(empty($error_message))
 		<div class="priceing_table" style="background: #fff;">
 			<div class="container">
 				<div class="row">
-				   <table class="table table-striped table-bordered zero-configuration">
+				   <table id="branches_table" class="table table-striped table-bordered ">
 					  <thead>
 						<tr>
-						  <th>Email</th>
-						  <th>Date</th>
-						  <th>Permission</th>
-						  <th style="text-align: center;">Action</th>
+						  <th><?php echo $this->lang->line('lang_Email_label');?></th>
+						  <th><?php echo $this->lang->line('lang_Date_label');?></th>
+						  <th><?php echo $this->lang->line('lang_Permission_label');?></th>
+						  <th style="text-align: center;"><?php echo $this->lang->line('lang_Action_label');?></th>
 						</tr>
 					  </thead>
 					  <tbody>
@@ -90,3 +90,5 @@ else
 <?php
 }
 ?>
+
+

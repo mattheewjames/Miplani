@@ -1,6 +1,6 @@
 <div class="unlimited_services" id="pricing-plan">
 	<div class="container">
-	<div class="col-md-12 text-center"><h1>My Profile</h1></div>
+	<div class="col-md-12 text-center"><h1><?php echo  $this->lang->line('lang_my_profile_label'); ?></h1></div>
 	</div>
 </div>
 <?php $this->load->view('web-common-files/profile_menu');?>
@@ -62,7 +62,7 @@
  					</div>
 					<div class="col-lg-12 col-md-12 mt-3 border-top">&nbsp;&nbsp;&nbsp;</div>
  					<div class="col-lg-12 col-md-12">
-						<h3>Current Plan Information</h3>
+						<h3><?php echo $this->lang->line('lang_current_plan_info_label');?></h3>
 						<div class="row m-0">
 						<div class="col-md-4 p-0">
 							<label  class="fw-600"><?php echo $this->lang->line('lang_type_of_subscription_label');?>:</label>
@@ -90,31 +90,31 @@
  					</div>
 					<div class="col-lg-12 col-md-12 mt-3 border-top">&nbsp;&nbsp;&nbsp;</div>
 					<div class="col-lg-12 col-md-12">
-						<h3>Projection Details</h3>
+						<h3><?php echo $this->lang->line('lang_Projection_Details_label');?> </h3>
 						<div class="row m-0">
 						<div class="col-md-3 p-0">
-							<label  class="fw-600">Total Annual Financial Goals:</label>
+							<label  class="fw-600"> <?php echo $this->lang->line('lang_Total_Annual_Financial_Goals_label');?>:</label>
 							<?php echo total_user_active_projections($user_row->user_id,'annual');?>
 						</div> 
 						<div class="col-md-3 p-0">
-							<label  class="fw-600">Total Dream Financial Goals:</label>
+							<label  class="fw-600"><?php echo $this->lang->line('lang_Total_Dream_Financial_Goals_label');?>:</label>
 							<?php echo total_user_active_projections($user_row->user_id,'Yearly');?>
 						</div> 
 						<div class="col-md-3 p-0">
-							<label  class="fw-600">Total Dream Bi-Annual Goals:</label>
+							<label  class="fw-600"><?php echo $this->lang->line('lang_Total_Dream_Bi-Annual_Goals_label');?>:</label>
 							<?php echo total_user_active_projections($user_row->user_id,'6 Months');?>
 						</div> 
 						<div class="col-md-3 p-0">
-							<label  class="fw-600">Total Dream Quarterly Goals:</label>
+							<label  class="fw-600"><?php echo $this->lang->line('lang_Total_Dream_Quarterly_Goals_label');?>:</label>
 							<?php echo total_user_active_projections($user_row->user_id,'3 Months');?>
 						</div>  
 						</div>
 					</div>
 					<div class="col-lg-12 col-md-12 mt-3 border-top">&nbsp;&nbsp;&nbsp;</div>
 					<div class="col-lg-12 col-md-12">
-						<h3>Shared with Freinds</h3>
+						<h3><?php echo $this->lang->line('lang_shared_with_friends_label');?></h3>
 						<div class="col-md-12 p-0">
-							<label  class="fw-600">Total Share:</label>
+							<label  class="fw-600"><?php echo $this->lang->line('lang_Total_Share_label');?>:</label>
 							<?php echo user_total_shares_projections($user_row->user_id);?>
 						</div> 
 					</div>

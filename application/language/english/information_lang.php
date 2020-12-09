@@ -74,6 +74,63 @@ $lang['lang_new_password_label'] =  "New Password";
 $lang['lang_personal_information_label'] =  "Personal Information"; 
 $lang['lang_type_of_subscription_label'] =  "Type of subscription"; 
 $lang['lang_free_label'] =  "Free"; 
+$lang['lang_view_saved_project_label'] =  "View Saved Projects";
+$lang['lang_create_fin_goals_label'] =  "Create New Finan. Goals";
+$lang['lang_my_plans_label'] =  "My plans";
+$lang['lang_shared_with_friends_label'] =  "Shared with Friends";
+$lang['lang_contact_us_label'] =  "Contact Us";
+$lang['lang_my_profile_label'] =  "My Profile";
+$lang['lang_profile_settings_label'] =  "Profile Settings";
+$lang['lang_invite_friends_label'] =  "Invite Friends";
+$lang['lang_current_plan_info_label'] =  "Current Plan Information";
+
+$lang['lang_Total_Annual_Financial_Goals_label'] =  "Total Annual Financial Goals";
+
+$lang['lang_Total_Dream_Financial_Goals_label'] =  "Total Dream Financial Goals";
+
+$lang['lang_Total_Dream_Bi-Annual_Goals_label'] =  "Total Dream Bi-Annual Goals";
+
+$lang['lang_Total_Dream_Quarterly_Goals_label'] =  "Total Dream Quarterly Goals";
+
+$lang['lang_Total_Share_label'] =  "Total Share";
+$lang['lang_Change_password_label'] =  "Change password";
+
+$lang['Please_enter_first_name'] =  "Please enter first name";
+$lang['Please_enter_last_name'] =  "Please enter last name";
+$lang['Please_enter_username'] =  "Please enter username";
+$lang['Please_enter_email'] =  "Please enter email";
+
+$lang['Please_enter_current_password'] =  "Please enter current password";
+$lang['Please_enter_new_password'] =  "Please enter new password";
+$lang['New_password_must_have_minimum_8_characters_or_numbers'] =  "New password must have minimum 8 characters or numbers";
+$lang['New_password_must_have_maximum_25_characters_or_numbers'] =  "New password must have maximum 25 characters or numbers";
+$lang['Please_enter_confirm_password'] =  "Please enter confirm password";
+$lang['New_password_and_confirm_password_not_match'] =  "New password and confirm password not match";
+
+$lang['lang_Email_label'] =  "Email";
+$lang['lang_Date_label'] =  "Date";
+$lang['lang_Permission_label'] =  "Permission";
+$lang['lang_Action_label'] =  "Action";
+$lang['Search'] = 'search';
+$lang['Show'] = 'Show';
+$lang['entries'] = 'entries';
+$lang['Showing'] = 'Showing';
+$lang['to'] = 'to';
+$lang['of'] = 'of';
+$lang['Previous'] = 'Previous';
+$lang['Next'] = 'Next';
+$lang['No records available'] = 'No records available';
+
+$lang['Please_select_valid_record'] = 'Please select valid record';
+
+$lang['Invite_Friend'] = 'Invite Friend';
+$lang['Permission'] = 'Permission';
+$lang['View'] = 'View';
+$lang['Edit'] = 'Edit';
+$lang['Enter_your_friend_email_address_to_invite'] = 'Enter your friend email address to invite';
+
+
+
 /*==============================Profile pages Validation Errors===============*/
 $lang['lang_sign_in_to_continue_error'] =  "Please sign in to continue";
 $lang['lang_please_enter_valid_login_information_error'] =  "please enter valid login information";

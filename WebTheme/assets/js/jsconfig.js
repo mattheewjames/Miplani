@@ -1,8 +1,8 @@
-var web_js_path = 'http://'+location.hostname+'/miplani/';
+var web_js_path = 'http://'+location.hostname+'/Miplani/';
 /*============================ Common Function=========================*/
 function gotolink(url)
 {
-	window.location = url;	
+	window.location = url;
 }
 function open_win(url_add)
 {
