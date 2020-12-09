@@ -31,7 +31,7 @@
 					
 					<!-- <a class="btn btn-dark <?php echo $bg_payment_class;?>" href="<?php echo base_url('panel/Payments');?>">My Plans</a> -->
 					<a class="btn btn-dark <?php echo $bg_share_class;?>" href="<?php echo base_url('panel/InviteFriends');?>"><?php echo  $this->lang->line('lang_shared_with_friends_label'); ?></a>
-					<a class="btn btn-dark <?php echo $bg_invite_class;?>" href="javascript:;" onClick="call_url_key_modal('pages/InviteProjectionFriend')"><?php echo  $this->lang->line('lang_invite_friends_label'); ?>   </a>
+					<a class="btn btn-dark <?php echo $bg_invite_class;?>" href="javascript:;" onClick="call_url_key_modal('pages/InviteProjectionFriend')"><?php echo  $this->lang->line('lang_invite_friends_label'); ?>     </a>
  				</div>
 			</div>
 		</div>
